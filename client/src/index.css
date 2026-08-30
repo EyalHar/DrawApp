@@ -1,0 +1,41 @@
+:root {
+  --bg: #f7f3ef;
+  --surface: #ffffff;
+  --primary: #9f3a53;
+  --primary-dark: #7e2c40;
+  --primary-bg: #f6e9ec;
+  --accent: #4b5d52;
+  --text: #2b2730;
+  --text-light: #7a7480;
+  --border: #e6ddd6;
+  --shadow: 0 8px 24px rgba(43, 39, 48, 0.08);
+  --radius: 14px;
+  --heading-font: 'Frank Ruhl Libre', 'Heebo', system-ui, serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Heebo', system-ui, 'Segoe UI', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button {
+  font-family: inherit;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: var(--heading-font);
+  font-weight: 700;
+}

@@ -1,0 +1,45 @@
+.drawing-canvas-wrap {
+  background: #fff;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  border: 2px solid var(--border);
+  overflow: hidden;
+  max-width: 460px;
+  margin: 0 auto;
+}
+
+.drawing-canvas {
+  display: block;
+  width: 100%;
+  touch-action: none;
+}
+
+.drawing-canvas.interactive {
+  cursor: crosshair;
+}
+
+.path-confirmed {
+  fill: none;
+  stroke: var(--text);
+  stroke-width: 6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.path-guide {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 10 8;
+  opacity: 0.85;
+}
+
+.path-user {
+  fill: none;
+  stroke: var(--primary);
+  stroke-width: 7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}

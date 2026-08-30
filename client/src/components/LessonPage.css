@@ -1,0 +1,130 @@
+.lesson-page {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.lesson-back {
+  border: none;
+  background: none;
+  color: var(--text-light);
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 8px 0;
+  margin-bottom: 8px;
+}
+
+.lesson-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 4px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.lesson-header h1 {
+  font-size: 28px;
+}
+
+.lesson-progress {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--primary-dark);
+  background: var(--primary-bg);
+  padding: 6px 14px;
+  border-radius: 999px;
+}
+
+.lesson-instruction {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text);
+  margin: 0 0 12px;
+}
+
+.lesson-feedback {
+  font-size: 16px;
+  font-weight: 600;
+  color: #9a5b1e;
+  background: #fbf0e2;
+  border: 1px solid #edd9b8;
+  border-radius: var(--radius);
+  padding: 10px 16px;
+  margin: 0 0 16px;
+}
+
+.lesson-controls {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.btn {
+  border: none;
+  border-radius: var(--radius);
+  padding: 14px 28px;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.1s, box-shadow 0.15s, background 0.15s;
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: #fff;
+  box-shadow: 0 6px 16px rgba(159, 58, 83, 0.3);
+}
+
+.btn-primary:hover {
+  background: var(--primary-dark);
+}
+
+.btn-secondary {
+  background: var(--surface);
+  color: var(--text);
+  border: 2px solid var(--border);
+}
+
+.btn-secondary:hover {
+  background: var(--bg);
+}
+
+.btn-skip {
+  background: transparent;
+  color: var(--text-light);
+  border: 2px dashed var(--border);
+}
+
+.btn-skip:hover {
+  color: var(--text);
+  border-color: var(--text-light);
+}
+
+.lesson-loading {
+  text-align: center;
+  padding: 80px 0;
+  font-size: 18px;
+  color: var(--text-light);
+}
+
+.lesson-complete {
+  text-align: center;
+}
+
+.lesson-complete-check {
+  width: 56px;
+  height: 56px;
+  color: var(--primary);
+  margin-bottom: 8px;
+}
+
+.lesson-complete h1 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
